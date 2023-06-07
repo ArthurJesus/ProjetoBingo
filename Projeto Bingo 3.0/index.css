@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 15vh;
+    width: 100vw;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+#corpo{
+    display: flex;
+}
+
+#cartela_header{
+    height: 85vh;
+    width: 70%;
+    justify-content: space-around;
+    background-color: yellowgreen;
+}
+
+#jogo_header{
+    height: 85vh;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+}
+div#jogo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: blue;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#cartela_header div{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cartela{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 60%;
+    border: 2px green solid;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+button:active{
+    color: black;
+    background-color: greenyellow;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: lightseagreen;
+}
+tr,td{
+    height: 50px;
+    width: 50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    text-align: center;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{ 
+    color: black;
+    text-decoration: none;
+}
