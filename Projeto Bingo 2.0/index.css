@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 15vh;
+    width: 100vw;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+#corpo{
+    display: flex;
+}
+
+#cartelas{
+    height: 85vh;
+    width: 70%;
+    justify-content: space-around;
+    background-color: yellowgreen;
+}
+
+#sorteador{
+    height: 85vh;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+#cartelas div{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#jogadores{
+    width: 100vh;
+    background-color: aqua;
+    white-space: nowrap;
+    display: inline-block;
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 60%;
+    border: 2px green solid;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+button:active{
+    color: black;
+    background-color: greenyellow;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    text-align: center;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{ 
+    color: black;
+    text-decoration: none;
+}
